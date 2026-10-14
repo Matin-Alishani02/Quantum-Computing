@@ -1,0 +1,244 @@
+{
+  "python": "3.12.14",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "qiskit": "2.5.0"
+  },
+  "results": [
+    {
+      "chapter": 1,
+      "slug": "introduction",
+      "status": "passed",
+      "returncode": 0,
+      "seconds": 0.386,
+      "examples": 3,
+      "log": "ch01.log"
+    },
+    {
+      "chapter": 2,
+      "slug": "complex_numbers",
+      "status": "passed",
+      "returncode": 0,
+      "seconds": 0.426,
+      "examples": 6,
+      "log": "ch02.log"
+    },
+    {
+      "chapter": 3,
+      "slug": "matrices_tensors",
+      "status": "passed",
+      "returncode": 0,
+      "seconds": 0.375,
+      "examples": 8,
+      "log": "ch03.log"
+    },
+    {
+      "chapter": 4,
+      "slug": "dirac_notation",
+      "status": "passed",
+      "returncode": 0,
+      "seconds": 0.408,
+      "examples": 8,
+      "log": "ch04.log"
+    },
+    {
+      "chapter": 5,
+      "slug": "quantum_mechanics",
+      "status": "passed",
+      "returncode": 0,
+      "seconds": 0.358,
+      "examples": 7,
+      "log": "ch05.log"
+    },
+    {
+      "chapter": 6,
+      "slug": "qubit_bloch_sphere",
+      "status": "passed",
+      "returncode": 0,
+      "seconds": 0.365,
+      "examples": 6,
+      "log": "ch06.log"
+    },
+    {
+      "chapter": 7,
+      "slug": "single_qubit_gates",
+      "status": "passed",
+      "returncode": 0,
+      "seconds": 0.352,
+      "examples": 9,
+      "log": "ch07.log"
+    },
+    {
+      "chapter": 8,
+      "slug": "controlled_gates",
+      "status": "passed",
+      "returncode": 0,
+      "seconds": 0.365,
+      "examples": 9,
+      "log": "ch08.log"
+    },
+    {
+      "chapter": 9,
+      "slug": "entanglement_bell",
+      "status": "passed",
+      "returncode": 0,
+      "seconds": 0.486,
+      "examples": 10,
+      "log": "ch09.log"
+    },
+    {
+      "chapter": 10,
+      "slug": "circuit_design",
+      "status": "passed",
+      "returncode": 0,
+      "seconds": 0.4,
+      "examples": 10,
+      "log": "ch10.log"
+    },
+    {
+      "chapter": 11,
+      "slug": "teleportation_qkd",
+      "status": "passed",
+      "returncode": 0,
+      "seconds": 0.362,
+      "examples": 7,
+      "log": "ch11.log"
+    },
+    {
+      "chapter": 12,
+      "slug": "oracles_phase_kickback",
+      "status": "passed",
+      "returncode": 0,
+      "seconds": 0.351,
+      "examples": 9,
+      "log": "ch12.log"
+    },
+    {
+      "chapter": 13,
+      "slug": "deutsch_jozsa",
+      "status": "passed",
+      "returncode": 0,
+      "seconds": 0.362,
+      "examples": 10,
+      "log": "ch13.log"
+    },
+    {
+      "chapter": 14,
+      "slug": "bernstein_vazirani_simon",
+      "status": "passed",
+      "returncode": 0,
+      "seconds": 0.988,
+      "examples": 10,
+      "log": "ch14.log"
+    },
+    {
+      "chapter": 15,
+      "slug": "grover_search",
+      "status": "passed",
+      "returncode": 0,
+      "seconds": 0.371,
+      "examples": 10,
+      "log": "ch15.log"
+    },
+    {
+      "chapter": 16,
+      "slug": "quantum_fourier_transform",
+      "status": "passed",
+      "returncode": 0,
+      "seconds": 0.409,
+      "examples": 10,
+      "log": "ch16.log"
+    },
+    {
+      "chapter": 17,
+      "slug": "phase_estimation_shor",
+      "status": "passed",
+      "returncode": 0,
+      "seconds": 0.356,
+      "examples": 12,
+      "log": "ch17.log"
+    },
+    {
+      "chapter": 18,
+      "slug": "variational_algorithms",
+      "status": "passed",
+      "returncode": 0,
+      "seconds": 1.195,
+      "examples": 13,
+      "log": "ch18.log"
+    },
+    {
+      "chapter": 19,
+      "slug": "quantum_noise",
+      "status": "passed",
+      "returncode": 0,
+      "seconds": 0.362,
+      "examples": 13,
+      "log": "ch19.log"
+    },
+    {
+      "chapter": 20,
+      "slug": "error_correction",
+      "status": "passed",
+      "returncode": 0,
+      "seconds": 0.387,
+      "examples": 12,
+      "log": "ch20.log"
+    },
+    {
+      "chapter": 21,
+      "slug": "qubit_hardware",
+      "status": "passed",
+      "returncode": 0,
+      "seconds": 0.588,
+      "examples": 12,
+      "log": "ch21.log"
+    },
+    {
+      "chapter": 22,
+      "slug": "quantum_cryptography",
+      "status": "passed",
+      "returncode": 0,
+      "seconds": 0.356,
+      "examples": 12,
+      "log": "ch22.log"
+    },
+    {
+      "chapter": 23,
+      "slug": "quantum_simulation",
+      "status": "passed",
+      "returncode": 0,
+      "seconds": 0.71,
+      "examples": 12,
+      "log": "ch23.log"
+    },
+    {
+      "chapter": 24,
+      "slug": "quantum_optimization",
+      "status": "passed",
+      "returncode": 0,
+      "seconds": 2.182,
+      "examples": 12,
+      "log": "ch24.log"
+    },
+    {
+      "chapter": 25,
+      "slug": "quantum_machine_learning",
+      "status": "passed",
+      "returncode": 0,
+      "seconds": 0.432,
+      "examples": 12,
+      "log": "ch25.log"
+    },
+    {
+      "chapter": 26,
+      "slug": "limitations_resources",
+      "status": "passed",
+      "returncode": 0,
+      "seconds": 0.394,
+      "examples": 12,
+      "log": "ch26.log"
+    }
+  ]
+}

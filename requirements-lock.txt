@@ -1,0 +1,8 @@
+# Tested environment, Python 3.12; platform-specific wheel selection is handled by pip.
+numpy==2.3.5
+qiskit==2.5.0
+scipy==1.17.0
+rustworkx==0.18.1
+dill==0.4.1
+stevedore==5.9.1
+typing_extensions==4.16.0

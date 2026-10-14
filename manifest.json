@@ -1,0 +1,1741 @@
+{
+  "format_version": 1,
+  "source_document": "Quantum_Computing_Vaziri_BW.docx",
+  "source_sha256": "f8481f943964cb75033e6ff65c672df90d36c16aa3ef2cd7a97ee42863b59e81",
+  "python_examples": 254,
+  "setup_blocks": 2,
+  "chapters": [
+    {
+      "number": 1,
+      "title_fa": "رایانش کوانتومی چیست؟",
+      "slug": "introduction",
+      "examples": [
+        {
+          "title_fa": "۷-۲. آزمایش اول: ساخت هادامارد فقط با NumPy",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 10,
+          "end_line": 20
+        },
+        {
+          "title_fa": "۷-۳. آزمایش دوم: یک کیوبیت با Qiskit",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 23,
+          "end_line": 34
+        },
+        {
+          "title_fa": "۷-۴. آزمایش سوم: ساخت یک جفت بل",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 37,
+          "end_line": 48
+        }
+      ],
+      "path": "chapters/ch01_introduction/lab.py"
+    },
+    {
+      "number": 2,
+      "title_fa": "اعداد مختلط، بردارها و فضاهای برداری",
+      "slug": "complex_numbers",
+      "examples": [
+        {
+          "title_fa": "۷-۲. عدد مختلط و نمایش قطبی",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 10,
+          "end_line": 20
+        },
+        {
+          "title_fa": "۷-۳. نُرم، ضرب داخلی و تصویر",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 23,
+          "end_line": 34
+        },
+        {
+          "title_fa": "۷-۴. یک گرام–اشمیت ساده",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 37,
+          "end_line": 57
+        },
+        {
+          "title_fa": "۷-۵. تبدیل بردار به حالت Qiskit",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 60,
+          "end_line": 68
+        },
+        {
+          "title_fa": "۷-۶. آزمایش فاز نسبی با تغییر پایه",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 71,
+          "end_line": 79
+        },
+        {
+          "title_fa": "۷-۷. پایه فوریه: نمونه‌ای از پایه مختلط",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 82,
+          "end_line": 94
+        }
+      ],
+      "path": "chapters/ch02_complex_numbers/lab.py"
+    },
+    {
+      "number": 3,
+      "title_fa": "ماتریس‌ها، مقادیر ویژه و ضرب تانسوری",
+      "slug": "matrices_tensors",
+      "examples": [
+        {
+          "title_fa": "۷-۱. ضرب و ترتیب ماتریس‌ها",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 10,
+          "end_line": 17
+        },
+        {
+          "title_fa": "۷-۲. مقادیر ویژه هرمیتی با eigh",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 20,
+          "end_line": 30
+        },
+        {
+          "title_fa": "۷-۳. ساخت نمایی یک هامیلتونی دوبعدی",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 33,
+          "end_line": 43
+        },
+        {
+          "title_fa": "۷-۴. ضرب تانسوری و ترتیب پایه",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 46,
+          "end_line": 54
+        },
+        {
+          "title_fa": "۷-۵. Operator و Statevector در Qiskit",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 57,
+          "end_line": 70
+        },
+        {
+          "title_fa": "۷-۶. مقدارهای منفرد و حساسیت",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 73,
+          "end_line": 81
+        },
+        {
+          "title_fa": "۷-۷. بسط یک عملگر در پایه پائولی",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 84,
+          "end_line": 97
+        },
+        {
+          "title_fa": "۷-۸. ساخت عملگر کنترل‌شده از بلوک‌ها",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 100,
+          "end_line": 117
+        }
+      ],
+      "path": "chapters/ch03_matrices_tensors/lab.py"
+    },
+    {
+      "number": 4,
+      "title_fa": "نمادگذاری دیراک و فضای هیلبرت",
+      "slug": "dirac_notation",
+      "examples": [
+        {
+          "title_fa": "۷-۱. کت، برا و براکت با NumPy",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 10,
+          "end_line": 18
+        },
+        {
+          "title_fa": "۷-۲. ساخت پروژکتور و آزمون آن",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 21,
+          "end_line": 27
+        },
+        {
+          "title_fa": "۷-۳. درج همانی و بازسازی عملگر",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 30,
+          "end_line": 41
+        },
+        {
+          "title_fa": "۷-۴. هم‌پوشانی و فاز کلی در Qiskit",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 44,
+          "end_line": 52
+        },
+        {
+          "title_fa": "۷-۵. مقدار انتظار با Operator",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 55,
+          "end_line": 61
+        },
+        {
+          "title_fa": "۷-۶. تغییر پایه و ماتریس یک عملگر",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 64,
+          "end_line": 78
+        },
+        {
+          "title_fa": "۷-۷. تقریب عددی بستار پیوسته",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 81,
+          "end_line": 93
+        },
+        {
+          "title_fa": "۷-۸. پروژکتور یک زیرفضا و مکمل آن",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 96,
+          "end_line": 111
+        }
+      ],
+      "path": "chapters/ch04_dirac_notation/lab.py"
+    },
+    {
+      "number": 5,
+      "title_fa": "اصول پایه مکانیک کوانتومی",
+      "slug": "quantum_mechanics",
+      "examples": [
+        {
+          "title_fa": "۷-۱. نرمال‌سازی یک تابع موج گوسی",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 10,
+          "end_line": 20
+        },
+        {
+          "title_fa": "۷-۲. نمونه‌گیری از قاعده بورن",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 23,
+          "end_line": 30
+        },
+        {
+          "title_fa": "۷-۳. مقدار انتظار و واریانس",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 33,
+          "end_line": 40
+        },
+        {
+          "title_fa": "۷-۴. تکامل با تجزیه ویژه",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 43,
+          "end_line": 51
+        },
+        {
+          "title_fa": "۷-۵. پیش‌بینی با Qiskit",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 54,
+          "end_line": 64
+        },
+        {
+          "title_fa": "۷-۶. اندازه‌گیری متوالی به‌صورت عددی",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 67,
+          "end_line": 79
+        },
+        {
+          "title_fa": "۷-۷. آزمون عددی یک کمیت پایسته",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 82,
+          "end_line": 96
+        }
+      ],
+      "path": "chapters/ch05_quantum_mechanics/lab.py"
+    },
+    {
+      "number": 6,
+      "title_fa": "کیوبیت، برهم‌نهی، اندازه‌گیری و کره بلوخ",
+      "slug": "qubit_bloch_sphere",
+      "examples": [
+        {
+          "title_fa": "۷-۱. تبدیل دامنه‌ها به بردار بلوخ",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 10,
+          "end_line": 28
+        },
+        {
+          "title_fa": "۷-۲. آماده‌سازی حالت با Qiskit",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 31,
+          "end_line": 43
+        },
+        {
+          "title_fa": "۷-۳. نمونه‌گیری در سه پایه",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 46,
+          "end_line": 64
+        },
+        {
+          "title_fa": "۷-۴. حالت مخلوط و توپ بلوخ",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 67,
+          "end_line": 76
+        },
+        {
+          "title_fa": "۷-۵. توموگرافی ساده از شمارش‌ها",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 79,
+          "end_line": 89
+        },
+        {
+          "title_fa": "۷-۶. کانال کاهش فاز در مختصات بلوخ",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 92,
+          "end_line": 106
+        }
+      ],
+      "path": "chapters/ch06_qubit_bloch_sphere/lab.py"
+    },
+    {
+      "number": 7,
+      "title_fa": "دروازه‌های تک‌کیوبیتی",
+      "slug": "single_qubit_gates",
+      "examples": [
+        {
+          "title_fa": "۷-۱. بررسی یکانی‌بودن با NumPy",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 10,
+          "end_line": 16
+        },
+        {
+          "title_fa": "۷-۲. ساخت و خواندن حالت نهایی در Qiskit",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 19,
+          "end_line": 29
+        },
+        {
+          "title_fa": "۷-۳. جاروب فاز در تداخل H-P-H",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 32,
+          "end_line": 45
+        },
+        {
+          "title_fa": "۷-۴. آزمون هم‌ارزی تا فاز کلی",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 48,
+          "end_line": 59
+        },
+        {
+          "title_fa": "۷-۵. ساخت دروازه عمومی با زاویه‌های اویلر",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 62,
+          "end_line": 71
+        },
+        {
+          "title_fa": "۷-۶. معکوس‌سازی خودکار مدار",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 74,
+          "end_line": 85
+        },
+        {
+          "title_fa": "۷-۷. مدار پارامتری و مقداردهی",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 88,
+          "end_line": 100
+        },
+        {
+          "title_fa": "۷-۸. جدول مزدوج‌سازی H و S",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 103,
+          "end_line": 131
+        },
+        {
+          "title_fa": "۷-۹. وفاداری خطای بیش‌چرخش",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 134,
+          "end_line": 155
+        }
+      ],
+      "path": "chapters/ch07_single_qubit_gates/lab.py"
+    },
+    {
+      "number": 8,
+      "title_fa": "سامانه‌های چندکیوبیتی و دروازه‌های کنترل‌شده",
+      "slug": "controlled_gates",
+      "examples": [
+        {
+          "title_fa": "۷-۱. ساخت ماتریس controlled-U با NumPy",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 10,
+          "end_line": 23
+        },
+        {
+          "title_fa": "۷-۲. جدول نگاشت CNOT در Qiskit",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 26,
+          "end_line": 44
+        },
+        {
+          "title_fa": "۷-۳. هم‌ارزی SWAP با سه CX",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 47,
+          "end_line": 56
+        },
+        {
+          "title_fa": "۷-۴. CNOT و شکست همانندسازی حالت |+⟩",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 59,
+          "end_line": 67
+        },
+        {
+          "title_fa": "۷-۵. جدول کامل تافولی",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 70,
+          "end_line": 85
+        },
+        {
+          "title_fa": "۷-۶. کنترل روی صفر",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 88,
+          "end_line": 96
+        },
+        {
+          "title_fa": "۷-۷. احتمال‌های یک زیرسامانه",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 99,
+          "end_line": 109
+        },
+        {
+          "title_fa": "۷-۸. راستی‌آزمایی قواعد انتشار پائولی",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 112,
+          "end_line": 125
+        },
+        {
+          "title_fa": "۷-۹. ساخت phase gadget دوکیوبیتی",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 128,
+          "end_line": 143
+        }
+      ],
+      "path": "chapters/ch08_controlled_gates/lab.py"
+    },
+    {
+      "number": 9,
+      "title_fa": "درهم‌تنیدگی و حالت‌های بل",
+      "slug": "entanglement_bell",
+      "examples": [
+        {
+          "title_fa": "۷-۱. ساخت Φ+ و مشاهده دامنه‌ها",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 10,
+          "end_line": 19
+        },
+        {
+          "title_fa": "۷-۲. رد جزئی، خلوص و آنتروپی",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 22,
+          "end_line": 29
+        },
+        {
+          "title_fa": "۷-۳. دترمینان و concurrence",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 32,
+          "end_line": 44
+        },
+        {
+          "title_fa": "۷-۴. محاسبه هم‌بستگی‌های پائولی",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 47,
+          "end_line": 52
+        },
+        {
+          "title_fa": "۷-۵. مقدار CHSH",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 55,
+          "end_line": 73
+        },
+        {
+          "title_fa": "۷-۶. حالت ورنر و کاهش درهم‌تنیدگی",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 76,
+          "end_line": 82
+        },
+        {
+          "title_fa": "۷-۷. مقایسه GHZ و W",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 85,
+          "end_line": 104
+        },
+        {
+          "title_fa": "۷-۸. negativity با ترانهاده جزئی",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 107,
+          "end_line": 119
+        },
+        {
+          "title_fa": "۷-۹. تعویض درهم‌تنیدگی با پس‌گزینی",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 122,
+          "end_line": 144
+        },
+        {
+          "title_fa": "۷-۱۰. ناوردایی زیر چرخش‌های محلی",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 147,
+          "end_line": 164
+        }
+      ],
+      "path": "chapters/ch09_entanglement_bell/lab.py"
+    },
+    {
+      "number": 10,
+      "title_fa": "طراحی و تحلیل مدارهای کوانتومی",
+      "slug": "circuit_design",
+      "examples": [
+        {
+          "title_fa": "۷-۱. ساخت بلوک ماژولار و وارون آن",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 10,
+          "end_line": 21
+        },
+        {
+          "title_fa": "۷-۲. compose با نگاشت سیم",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 24,
+          "end_line": 32
+        },
+        {
+          "title_fa": "۷-۳. سنجش ساختار مدار",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 35,
+          "end_line": 46
+        },
+        {
+          "title_fa": "۷-۴. هم‌ارزی دقیق و تا فاز",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 49,
+          "end_line": 56
+        },
+        {
+          "title_fa": "۷-۵. ترنسپایل روی اتصال خطی",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 59,
+          "end_line": 76
+        },
+        {
+          "title_fa": "۷-۶. راستی‌آزمایی یک هویت",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 79,
+          "end_line": 90
+        },
+        {
+          "title_fa": "۷-۷. شات ایده‌آل و خطای نمونه‌گیری",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 93,
+          "end_line": 107
+        },
+        {
+          "title_fa": "۷-۸. آزمون تصادفی دو پیاده‌سازی",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 110,
+          "end_line": 128
+        },
+        {
+          "title_fa": "۷-۹. قاعده parameter-shift",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 131,
+          "end_line": 150
+        },
+        {
+          "title_fa": "۷-۱۰. فاصله کل تغییرات",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 153,
+          "end_line": 165
+        }
+      ],
+      "path": "chapters/ch10_circuit_design/lab.py"
+    },
+    {
+      "number": 11,
+      "title_fa": "انتقال کوانتومی، کدگذاری چگال و توزیع کلید",
+      "slug": "teleportation_qkd",
+      "examples": [
+        {
+          "title_fa": "۷-۱. انتقال همدوس و وفاداری باب",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 10,
+          "end_line": 37
+        },
+        {
+          "title_fa": "۷-۲. آزمون انتقال برای چند حالت",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 40,
+          "end_line": 72
+        },
+        {
+          "title_fa": "۷-۳. چهار پیام کدگذاری چگال",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 75,
+          "end_line": 96
+        },
+        {
+          "title_fa": "۷-۴. شبیه‌سازی غربال BB84",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 99,
+          "end_line": 117
+        },
+        {
+          "title_fa": "۷-۵. حمله intercept-resend",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 120,
+          "end_line": 132
+        },
+        {
+          "title_fa": "۷-۶. رمز یک‌بارمصرف روی بیت‌ها",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 135,
+          "end_line": 143
+        },
+        {
+          "title_fa": "۷-۷. حاشیه ساده finite-sample",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 146,
+          "end_line": 164
+        }
+      ],
+      "path": "chapters/ch11_teleportation_qkd/lab.py"
+    },
+    {
+      "number": 12,
+      "title_fa": "اوراکل‌ها، تداخل و بازگشت فاز",
+      "slug": "oracles_phase_kickback",
+      "examples": [
+        {
+          "title_fa": "۷-۱. اوراکل یک‌بیتی fx=x",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 10,
+          "end_line": 18
+        },
+        {
+          "title_fa": "۷-۲. مشاهده بازگشت فاز",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 21,
+          "end_line": 32
+        },
+        {
+          "title_fa": "۷-۳. تبدیل فاز به بیت",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 35,
+          "end_line": 47
+        },
+        {
+          "title_fa": "۷-۴. ساخت اوراکل فاز برای الگوی دلخواه",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 50,
+          "end_line": 63
+        },
+        {
+          "title_fa": "۷-۵. استخراج طیف والش",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 66,
+          "end_line": 83
+        },
+        {
+          "title_fa": "۷-۶. آزمون جدول درستی",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 86,
+          "end_line": 100
+        },
+        {
+          "title_fa": "۷-۷. بایاس و احتمال خروجی صفر",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 103,
+          "end_line": 108
+        },
+        {
+          "title_fa": "۷-۸. الگوی compute–phase–uncompute",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 111,
+          "end_line": 124
+        },
+        {
+          "title_fa": "۷-۹. آزمون پاک‌بودن workspace",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 127,
+          "end_line": 138
+        }
+      ],
+      "path": "chapters/ch12_oracles_phase_kickback/lab.py"
+    },
+    {
+      "number": 13,
+      "title_fa": "الگوریتم‌های دویچ و دویچ–جوزا",
+      "slug": "deutsch_jozsa",
+      "examples": [
+        {
+          "title_fa": "۷-۱. مدار عمومی دویچ",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 10,
+          "end_line": 27
+        },
+        {
+          "title_fa": "۷-۲. چهار اوراکل یک‌بیتی",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 30,
+          "end_line": 46
+        },
+        {
+          "title_fa": "۷-۳. مدار n‌بیتی با phase oracle",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 49,
+          "end_line": 67
+        },
+        {
+          "title_fa": "۷-۴. phase oracle از جدول درستی",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 70,
+          "end_line": 78
+        },
+        {
+          "title_fa": "۷-۵. طبقه‌بندی جدول درستی",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 81,
+          "end_line": 91
+        },
+        {
+          "title_fa": "۷-۶. شبیه‌سازی الگوریتم تصادفی کلاسیک",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 94,
+          "end_line": 113
+        },
+        {
+          "title_fa": "۷-۷. نمونه‌برداری شات از Statevector",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 116,
+          "end_line": 124
+        },
+        {
+          "title_fa": "۷-۸. مدل ساده خطای خوانش",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 127,
+          "end_line": 145
+        },
+        {
+          "title_fa": "۷-۹. قاعده آستانه و عدم‌قطعیت",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 148,
+          "end_line": 163
+        },
+        {
+          "title_fa": "۷-۱۰. انتخاب k کلاسیک از بودجه خطا",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 166,
+          "end_line": 175
+        }
+      ],
+      "path": "chapters/ch13_deutsch_jozsa/lab.py"
+    },
+    {
+      "number": 14,
+      "title_fa": "الگوریتم برنشتاین–وزیرانی و سایمون",
+      "slug": "bernstein_vazirani_simon",
+      "examples": [
+        {
+          "title_fa": "۷-۱. ساخت oracle برنشتاین–وزیرانی",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 10,
+          "end_line": 22
+        },
+        {
+          "title_fa": "۷-۲. اجرای BV با Statevector",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 25,
+          "end_line": 38
+        },
+        {
+          "title_fa": "۷-۳. بررسی offset",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 41,
+          "end_line": 48
+        },
+        {
+          "title_fa": "۷-۴. oracle خطی سایمون برای s=101",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 51,
+          "end_line": 65
+        },
+        {
+          "title_fa": "۷-۵. توزیع نمونه‌های سایمون",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 68,
+          "end_line": 76
+        },
+        {
+          "title_fa": "۷-۶. حذف گاوسی GF(۲)",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 79,
+          "end_line": 102
+        },
+        {
+          "title_fa": "۷-۷. یافتن نامزد غیرصفر",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 105,
+          "end_line": 117
+        },
+        {
+          "title_fa": "۷-۸. گردآوری تا رتبه n−۱",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 120,
+          "end_line": 139
+        },
+        {
+          "title_fa": "۷-۹. شبیه‌سازی تعداد نمونه لازم",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 142,
+          "end_line": 163
+        },
+        {
+          "title_fa": "۷-۱۰. آزمون وعده یک نگاشت خطی",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 166,
+          "end_line": 181
+        }
+      ],
+      "path": "chapters/ch14_bernstein_vazirani_simon/lab.py"
+    },
+    {
+      "number": 15,
+      "title_fa": "الگوریتم جست‌وجوی گروور",
+      "slug": "grover_search",
+      "examples": [
+        {
+          "title_fa": "۷-۱. phase oracle برای یک رشته",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 10,
+          "end_line": 25
+        },
+        {
+          "title_fa": "۷-۲. ساخت diffuser",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 28,
+          "end_line": 40
+        },
+        {
+          "title_fa": "۷-۳. اجرای گروور کوچک",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 43,
+          "end_line": 59
+        },
+        {
+          "title_fa": "۷-۴. منحنی نظری تکرار",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 62,
+          "end_line": 72
+        },
+        {
+          "title_fa": "۷-۵. انتخاب بهترین عدد صحیح",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 75,
+          "end_line": 92
+        },
+        {
+          "title_fa": "۷-۶. بررسی diffuser با Operator",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 95,
+          "end_line": 102
+        },
+        {
+          "title_fa": "۷-۷. دو جواب",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 105,
+          "end_line": 116
+        },
+        {
+          "title_fa": "۷-۸. مقایسه مدار و فرمول",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 119,
+          "end_line": 141
+        },
+        {
+          "title_fa": "۷-۹. مدل ساده افت با عمق",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 144,
+          "end_line": 152
+        },
+        {
+          "title_fa": "۷-۱۰. تعداد تکرار مستقل برای اطمینان",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 155,
+          "end_line": 170
+        }
+      ],
+      "path": "chapters/ch15_grover_search/lab.py"
+    },
+    {
+      "number": 16,
+      "title_fa": "تبدیل فوریه کوانتومی",
+      "slug": "quantum_fourier_transform",
+      "examples": [
+        {
+          "title_fa": "۷-۱. ساخت دستی QFT",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 10,
+          "end_line": 27
+        },
+        {
+          "title_fa": "۷-۲. مقایسه با QFTGate",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 30,
+          "end_line": 35
+        },
+        {
+          "title_fa": "۷-۳. دامنه‌های QFT یک حالت پایه",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 38,
+          "end_line": 46
+        },
+        {
+          "title_fa": "۷-۴. آزمون inverse",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 49,
+          "end_line": 62
+        },
+        {
+          "title_fa": "۷-۵. ماتریس نظری",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 65,
+          "end_line": 77
+        },
+        {
+          "title_fa": "۷-۶. حالت دوره‌ای",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 80,
+          "end_line": 95
+        },
+        {
+          "title_fa": "۷-۷. بازیابی فاز دقیق با inverse QFT",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 98,
+          "end_line": 107
+        },
+        {
+          "title_fa": "۷-۸. QFT تقریبی دستی",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 110,
+          "end_line": 124
+        },
+        {
+          "title_fa": "۷-۹. سنجش خطای تقریبی",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 127,
+          "end_line": 140
+        },
+        {
+          "title_fa": "۷-۱۰. بررسی bit reversal بدون SWAP",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 143,
+          "end_line": 152
+        }
+      ],
+      "path": "chapters/ch16_quantum_fourier_transform/lab.py"
+    },
+    {
+      "number": 17,
+      "title_fa": "تخمین فاز و الگوریتم شور",
+      "slug": "phase_estimation_shor",
+      "examples": [
+        {
+          "title_fa": "۷-۱. تابع کسر مسلسل",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 10,
+          "end_line": 19
+        },
+        {
+          "title_fa": "۷-۲. اعتبارسنجی نامزد مرتبه",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 22,
+          "end_line": 30
+        },
+        {
+          "title_fa": "۷-۳. ساخت مدار QPE برای یک دروازهٔ فاز",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 33,
+          "end_line": 47
+        },
+        {
+          "title_fa": "۷-۴. نمونه‌برداری با StatevectorSampler",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 50,
+          "end_line": 56
+        },
+        {
+          "title_fa": "۷-۵. تبدیل رشته به فاز با کنترل ترتیب بیت",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 59,
+          "end_line": 65
+        },
+        {
+          "title_fa": "۷-۶. بازیابی مرتبه از یک نمونه",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 68,
+          "end_line": 75
+        },
+        {
+          "title_fa": "۷-۷. استخراج عامل‌ها",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 78,
+          "end_line": 88
+        },
+        {
+          "title_fa": "۷-۸. آزمون چند مقدار کوچک",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 91,
+          "end_line": 95
+        },
+        {
+          "title_fa": "۷-۹. بررسی توزیع ایدئال بدون shots",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 98,
+          "end_line": 109
+        },
+        {
+          "title_fa": "۷-۱۰. توزیع تحلیلی QPE",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 112,
+          "end_line": 121
+        },
+        {
+          "title_fa": "۷-۱۱. ترکیب نامزدهای چند run",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 124,
+          "end_line": 136
+        },
+        {
+          "title_fa": "۷-۱۲. تشخیص توان کامل",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 139,
+          "end_line": 148
+        }
+      ],
+      "path": "chapters/ch17_phase_estimation_shor/lab.py"
+    },
+    {
+      "number": 18,
+      "title_fa": "الگوریتم‌های کوانتومی تغییرپذیر",
+      "slug": "variational_algorithms",
+      "examples": [
+        {
+          "title_fa": "۷-۱. انرژی یک‌کیوبیتی با NumPy",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 10,
+          "end_line": 21
+        },
+        {
+          "title_fa": "۷-۲. مدار ansatz در Qiskit",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 24,
+          "end_line": 32
+        },
+        {
+          "title_fa": "۷-۳. امیدریاضی دقیق SparsePauliOp",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 35,
+          "end_line": 48
+        },
+        {
+          "title_fa": "۷-۴. جست‌وجوی شبکه‌ای بازتولیدپذیر",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 51,
+          "end_line": 58
+        },
+        {
+          "title_fa": "۷-۵. parameter-shift چندپارامتری",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 61,
+          "end_line": 70
+        },
+        {
+          "title_fa": "۷-۶. یک نزول گرادیانی ساده",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 73,
+          "end_line": 80
+        },
+        {
+          "title_fa": "۷-۷. QAOA برای گراف مثلث",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 83,
+          "end_line": 96
+        },
+        {
+          "title_fa": "۷-۸. هزینهٔ کلاسیک نمونه‌ها",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 99,
+          "end_line": 110
+        },
+        {
+          "title_fa": "۷-۹. شبیه‌سازی shots با NumPy",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 113,
+          "end_line": 120
+        },
+        {
+          "title_fa": "۷-۱۰. baseline دقیق",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 123,
+          "end_line": 130
+        },
+        {
+          "title_fa": "۷-۱۱. تخصیص تطبیقی shots",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 133,
+          "end_line": 141
+        },
+        {
+          "title_fa": "۷-۱۲. چند شروع مستقل",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 144,
+          "end_line": 156
+        },
+        {
+          "title_fa": "۷-۱۳. کران overlap از انرژی",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 159,
+          "end_line": 164
+        }
+      ],
+      "path": "chapters/ch18_variational_algorithms/lab.py"
+    },
+    {
+      "number": 19,
+      "title_fa": "نویز، واهمدوسی و مدل‌های کانال کوانتومی",
+      "slug": "quantum_noise",
+      "examples": [
+        {
+          "title_fa": "۷-۱. ماتریس چگالی و خلوص",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 10,
+          "end_line": 18
+        },
+        {
+          "title_fa": "۷-۲. ردگیری جزئی حالت بل",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 21,
+          "end_line": 25
+        },
+        {
+          "title_fa": "۷-۳. اعمال مجموعه Kraus با NumPy",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 28,
+          "end_line": 36
+        },
+        {
+          "title_fa": "۷-۴. آزمون completeness",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 39,
+          "end_line": 43
+        },
+        {
+          "title_fa": "۷-۵. نمایش Kraus و Choi در Qiskit",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 46,
+          "end_line": 52
+        },
+        {
+          "title_fa": "۷-۶. کانال dephasing",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 55,
+          "end_line": 60
+        },
+        {
+          "title_fa": "۷-۷. کانال depolarizing با قرارداد روشن",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 63,
+          "end_line": 73
+        },
+        {
+          "title_fa": "۷-۸. شبیه‌سازی منحنی T1",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 76,
+          "end_line": 83
+        },
+        {
+          "title_fa": "۷-۹. ترکیب کانال‌ها",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 86,
+          "end_line": 91
+        },
+        {
+          "title_fa": "۷-۱۰. نگاشت بردار بلوخ",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 94,
+          "end_line": 107
+        },
+        {
+          "title_fa": "۷-۱۱. برازش log-linear ساده T1",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 110,
+          "end_line": 116
+        },
+        {
+          "title_fa": "۷-۱۲. خطای coherent در برابر stochastic",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 119,
+          "end_line": 123
+        },
+        {
+          "title_fa": "7-13. Choi rank",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 126,
+          "end_line": 136
+        }
+      ],
+      "path": "chapters/ch19_quantum_noise/lab.py"
+    },
+    {
+      "number": 20,
+      "title_fa": "کاهش خطا و تصحیح خطای کوانتومی",
+      "slug": "error_correction",
+      "examples": [
+        {
+          "title_fa": "۷-۱. کد bit flip در Qiskit",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 10,
+          "end_line": 22
+        },
+        {
+          "title_fa": "۷-۲. تزریق و بازیابی یک خطای X",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 25,
+          "end_line": 36
+        },
+        {
+          "title_fa": "۷-۳. جدول syndrome پائولی",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 39,
+          "end_line": 47
+        },
+        {
+          "title_fa": "۷-۴. خطای منطقی repetition",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 50,
+          "end_line": 58
+        },
+        {
+          "title_fa": "۷-۵. ZNE خطی روی داده مصنوعی",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 61,
+          "end_line": 65
+        },
+        {
+          "title_fa": "۷-۶. bootstrap عدم قطعیت ZNE",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 68,
+          "end_line": 73
+        },
+        {
+          "title_fa": "۷-۷. وارون‌سازی readout",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 76,
+          "end_line": 79
+        },
+        {
+          "title_fa": "۷-۸. جبر پایدارساز",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 82,
+          "end_line": 91
+        },
+        {
+          "title_fa": "۷-۹. تخمین فاصله لازم",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 94,
+          "end_line": 101
+        },
+        {
+          "title_fa": "7-11. Monte Carlo repetition code",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 104,
+          "end_line": 114
+        },
+        {
+          "title_fa": "۷-۱۲. بقای حافظه منطقی",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 117,
+          "end_line": 122
+        },
+        {
+          "title_fa": "۷-۱۳. آزمون فیزیکی‌بودن ZNE",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 125,
+          "end_line": 135
+        }
+      ],
+      "path": "chapters/ch20_error_correction/lab.py"
+    },
+    {
+      "number": 21,
+      "title_fa": "فناوری‌های ساخت کیوبیت",
+      "slug": "qubit_hardware",
+      "examples": [
+        {
+          "title_fa": "۷-۱. جمعیت گرمایی",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 10,
+          "end_line": 21
+        },
+        {
+          "title_fa": "۷-۲. طیف تقریبی ترانسمون",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 24,
+          "end_line": 30
+        },
+        {
+          "title_fa": "۷-۳. نسبت زمان انسجام به گیت",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 33,
+          "end_line": 38
+        },
+        {
+          "title_fa": "۷-۴. survival فوتونی",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 41,
+          "end_line": 46
+        },
+        {
+          "title_fa": "۷-۵. مدار آزمون topology",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 49,
+          "end_line": 64
+        },
+        {
+          "title_fa": "۷-۶. مقایسه با اتصال کامل",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 67,
+          "end_line": 78
+        },
+        {
+          "title_fa": "۷-۷. شمارش هزینه SWAP",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 81,
+          "end_line": 92
+        },
+        {
+          "title_fa": "۷-۸. ماتریس تصمیم شفاف",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 95,
+          "end_line": 110
+        },
+        {
+          "title_fa": "۷-۹. حساسیت رتبه‌بندی به وزن‌ها",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 113,
+          "end_line": 119
+        },
+        {
+          "title_fa": "۷-۱۱. شبیه‌سازی yield",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 122,
+          "end_line": 131
+        },
+        {
+          "title_fa": "۷-۱۲. برخورد فرکانسی ساده",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 134,
+          "end_line": 144
+        },
+        {
+          "title_fa": "۷-۱۳. نقص یال و هزینه routing",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 147,
+          "end_line": 166
+        }
+      ],
+      "path": "chapters/ch21_qubit_hardware/lab.py"
+    },
+    {
+      "number": 22,
+      "title_fa": "رمزنگاری و ارتباطات کوانتومی",
+      "slug": "quantum_cryptography",
+      "examples": [
+        {
+          "title_fa": "۷-۱. غربال BB84 با NumPy",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 10,
+          "end_line": 21
+        },
+        {
+          "title_fa": "۷-۲. افزودن intercept-resend",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 24,
+          "end_line": 32
+        },
+        {
+          "title_fa": "۷-۳. آنتروپی و نرخ ساده",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 35,
+          "end_line": 41
+        },
+        {
+          "title_fa": "۷-۴. حاشیه اندازه محدود",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 44,
+          "end_line": 49
+        },
+        {
+          "title_fa": "۷-۵. آمار پواسون decoy",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 52,
+          "end_line": 61
+        },
+        {
+          "title_fa": "۷-۶. مدل ساده gain",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 64,
+          "end_line": 70
+        },
+        {
+          "title_fa": "۷-۷. hash تپلیتز آموزشی",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 73,
+          "end_line": 84
+        },
+        {
+          "title_fa": "۷-۸. حالت بل در Qiskit",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 87,
+          "end_line": 95
+        },
+        {
+          "title_fa": "۷-۹. هم‌بستگی E91",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 98,
+          "end_line": 103
+        },
+        {
+          "title_fa": "۷-۱۰. شبیه‌سازی اتلاف و dark count",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 106,
+          "end_line": 116
+        },
+        {
+          "title_fa": "۷-۱۱. زمان انتظار تکرارگر",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 119,
+          "end_line": 127
+        },
+        {
+          "title_fa": "۷-۱۲. حساسیت طول کلید",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 130,
+          "end_line": 137
+        }
+      ],
+      "path": "chapters/ch22_quantum_cryptography/lab.py"
+    },
+    {
+      "number": 23,
+      "title_fa": "شبیه‌سازی سامانه‌های کوانتومی",
+      "slug": "quantum_simulation",
+      "examples": [
+        {
+          "title_fa": "۷-۱. ساخت ماتریس‌های چندکیوبیتی",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 10,
+          "end_line": 28
+        },
+        {
+          "title_fa": "۷-۲. هامیلتونی Ising",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 31,
+          "end_line": 41
+        },
+        {
+          "title_fa": "۷-۳. تکامل دقیق",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 44,
+          "end_line": 52
+        },
+        {
+          "title_fa": "۷-۴. تکامل پائولی در Qiskit",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 55,
+          "end_line": 77
+        },
+        {
+          "title_fa": "۷-۵. خطای Trotter بر حسب reps",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 80,
+          "end_line": 91
+        },
+        {
+          "title_fa": "۷-۶. امید مغناطش",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 94,
+          "end_line": 95
+        },
+        {
+          "title_fa": "۷-۷. برآورد شاتی یک رشته پائولی",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 98,
+          "end_line": 108
+        },
+        {
+          "title_fa": "۷-۸. VQE تک‌پارامتری آموزشی",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 111,
+          "end_line": 130
+        },
+        {
+          "title_fa": "۷-۹. Jordan-Wigner برای عملگر عدد",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 133,
+          "end_line": 138
+        },
+        {
+          "title_fa": "۷-۱۰. معادله Lindblad یک کیوبیت",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 141,
+          "end_line": 157
+        },
+        {
+          "title_fa": "۷-۱۱. آزمون قانون پایستگی",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 160,
+          "end_line": 165
+        },
+        {
+          "title_fa": "۷-۱۲. بودجه خطا",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 168,
+          "end_line": 175
+        }
+      ],
+      "path": "chapters/ch23_quantum_simulation/lab.py"
+    },
+    {
+      "number": 24,
+      "title_fa": "بهینه‌سازی کوانتومی",
+      "slug": "quantum_optimization",
+      "examples": [
+        {
+          "title_fa": "۷-۱. ارزیابی Max-Cut",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 10,
+          "end_line": 29
+        },
+        {
+          "title_fa": "۷-۲. ساخت QUBO Max-Cut",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 32,
+          "end_line": 43
+        },
+        {
+          "title_fa": "۷-۳. تحلیل penalty",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 46,
+          "end_line": 57
+        },
+        {
+          "title_fa": "۷-۴. مدار QAOA با p=1",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 60,
+          "end_line": 82
+        },
+        {
+          "title_fa": "۷-۵. جست‌وجوی شبکه‌ای زاویه‌ها",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 85,
+          "end_line": 93
+        },
+        {
+          "title_fa": "۷-۶. نمونه‌برداری پاسخ نهایی",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 96,
+          "end_line": 107
+        },
+        {
+          "title_fa": "۷-۷. baseline تصادفی",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 110,
+          "end_line": 122
+        },
+        {
+          "title_fa": "7-8. local search",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 125,
+          "end_line": 143
+        },
+        {
+          "title_fa": "۷-۹. success probability و TTS",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 146,
+          "end_line": 161
+        },
+        {
+          "title_fa": "۷-۱۰. CVaR از نمونه‌ها",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 164,
+          "end_line": 174
+        },
+        {
+          "title_fa": "۷-۱۱. تحلیل چند seed",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 177,
+          "end_line": 187
+        },
+        {
+          "title_fa": "۷-۱۲. حساب هزینه end-to-end",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 190,
+          "end_line": 206
+        }
+      ],
+      "path": "chapters/ch24_quantum_optimization/lab.py"
+    },
+    {
+      "number": 25,
+      "title_fa": "یادگیری ماشین کوانتومی",
+      "slug": "quantum_machine_learning",
+      "examples": [
+        {
+          "title_fa": "۷-۱. داده مصنوعی و split",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 10,
+          "end_line": 25
+        },
+        {
+          "title_fa": "۷-۲. feature map زاویه‌ای",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 28,
+          "end_line": 41
+        },
+        {
+          "title_fa": "۷-۳. Gram matrix کوانتومی",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 44,
+          "end_line": 52
+        },
+        {
+          "title_fa": "7-4. kernel ridge classifier",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 55,
+          "end_line": 65
+        },
+        {
+          "title_fa": "7-5. baseline RBF",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 68,
+          "end_line": 77
+        },
+        {
+          "title_fa": "۷-۶. طیف و alignment",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 80,
+          "end_line": 91
+        },
+        {
+          "title_fa": "۷-۷. مدل پارامتری یک کیوبیت",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 94,
+          "end_line": 106
+        },
+        {
+          "title_fa": "۷-۸. بررسی parameter-shift",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 109,
+          "end_line": 122
+        },
+        {
+          "title_fa": "۷-۹. شات و uncertainty",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 125,
+          "end_line": 133
+        },
+        {
+          "title_fa": "۷-۱۰. kernel noisy آموزشی",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 136,
+          "end_line": 145
+        },
+        {
+          "title_fa": "7-11. random-label audit",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 148,
+          "end_line": 152
+        },
+        {
+          "title_fa": "۷-۱۲. هزینه ارزیابی kernel",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 155,
+          "end_line": 160
+        }
+      ],
+      "path": "chapters/ch25_quantum_machine_learning/lab.py"
+    },
+    {
+      "number": 26,
+      "title_fa": "محدودیت‌ها، برتری کوانتومی و آینده فناوری",
+      "slug": "limitations_resources",
+      "examples": [
+        {
+          "title_fa": "۷-۱. قانون آمدال",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 10,
+          "end_line": 15
+        },
+        {
+          "title_fa": "۷-۲. crossover دو مدل",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 18,
+          "end_line": 37
+        },
+        {
+          "title_fa": "۷-۳. حساسیت به پیشرفت کلاسیک",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 40,
+          "end_line": 46
+        },
+        {
+          "title_fa": "۷-۴. تکرار تا موفقیت",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 49,
+          "end_line": 64
+        },
+        {
+          "title_fa": "۷-۵. فاصله کد آموزشی",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 67,
+          "end_line": 72
+        },
+        {
+          "title_fa": "۷-۶. انتخاب d از بودجه شکست",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 75,
+          "end_line": 81
+        },
+        {
+          "title_fa": "۷-۷. throughput کارخانه",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 84,
+          "end_line": 105
+        },
+        {
+          "title_fa": "۷-۸. حافظه شبیه‌ساز کلاسیک",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 108,
+          "end_line": 113
+        },
+        {
+          "title_fa": "۷-۹. compilation روی اتصال خطی",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 116,
+          "end_line": 133
+        },
+        {
+          "title_fa": "۷-۱۰. انرژی و هزینه راه‌حل",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 136,
+          "end_line": 143
+        },
+        {
+          "title_fa": "۷-۱۱. سناریوی مونت‌کارلو",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 146,
+          "end_line": 161
+        },
+        {
+          "title_fa": "۷-۱۲. scorecard ادعا",
+          "book_section_fa": "۷. آزمایشگاه Python و Qiskit",
+          "start_line": 164,
+          "end_line": 181
+        }
+      ],
+      "path": "chapters/ch26_limitations_resources/lab.py"
+    }
+  ]
+}
